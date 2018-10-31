@@ -1,9 +1,6 @@
-<p>
-  heroes works!
-  <br>
-  Here is the the new text {{hero.name}}
-  <br>
-  The id is :- {{hero.id}}
-  <br>
-  The name is :- {{hero.name | uppercase}}
-</p>
+<div><span>name: </span>{{hero.name}}</div>
+<div>
+  <label>name:
+    <input [(ngModel)]="hero.name" placeholder="name">
+  </label>
+</div>
